@@ -1,0 +1,6 @@
+framework module Pods_MedNetUITests {
+  umbrella header "Pods-MedNetUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

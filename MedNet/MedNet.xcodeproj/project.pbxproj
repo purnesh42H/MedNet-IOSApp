@@ -1,0 +1,1113 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3649542BCA048008641EF8C9 /* Pods_MedNetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBE2B53D1B80CF3C1FB0CDEE /* Pods_MedNetUITests.framework */; };
+		7E3D00241E88746B004DC071 /* AddProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3D00231E88746B004DC071 /* AddProfileViewController.swift */; };
+		7E3D00281E8877EF004DC071 /* DatePickerDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3D00271E8877EF004DC071 /* DatePickerDialog.swift */; };
+		7E3D002A1E887DF7004DC071 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3D00291E887DF7004DC071 /* Util.swift */; };
+		7E3D00301E888C4D004DC071 /* SearchTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3D002F1E888C4D004DC071 /* SearchTextField.swift */; };
+		7E3D00321E88969C004DC071 /* AddAllergiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3D00311E88969C004DC071 /* AddAllergiesViewController.swift */; };
+		7E44EDAD1E91F83D00B2358C /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E44EDA01E91F82700B2358C /* SQLite.framework */; };
+		7E44EDAE1E91F83D00B2358C /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7E44EDA01E91F82700B2358C /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7E4500BA1E9074CC004E89D1 /* VolunteerOrganization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4500B91E9074CC004E89D1 /* VolunteerOrganization.swift */; };
+		7E4500BC1E907AA0004E89D1 /* Hospital.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4500BB1E907AA0004E89D1 /* Hospital.swift */; };
+		7E4500BE1E90B187004E89D1 /* CivilianInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4500BD1E90B186004E89D1 /* CivilianInfoViewController.swift */; };
+		7E4500C01E90BB8D004E89D1 /* AddDegreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4500BF1E90BB8D004E89D1 /* AddDegreeViewController.swift */; };
+		7E4500C21E90C6F5004E89D1 /* AddHospitalServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4500C11E90C6F5004E89D1 /* AddHospitalServicesViewController.swift */; };
+		7E4500C41E918D2E004E89D1 /* AddCertificatesExistingUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4500C31E918D2E004E89D1 /* AddCertificatesExistingUserViewController.swift */; };
+		7E4500C61E91A687004E89D1 /* HospitalAppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4500C51E91A687004E89D1 /* HospitalAppointmentViewController.swift */; };
+		7E4500CA1E91B3D5004E89D1 /* AddAppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4500C91E91B3D5004E89D1 /* AddAppointmentViewController.swift */; };
+		7E5B0FB41E88C49C00B6FD58 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B0FB31E88C49C00B6FD58 /* UserProfile.swift */; };
+		7E5B0FBC1E88D4E300B6FD58 /* AddTreatmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B0FBB1E88D4E300B6FD58 /* AddTreatmentsViewController.swift */; };
+		7E5B0FBE1E88EA4700B6FD58 /* AddCertificatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B0FBD1E88EA4700B6FD58 /* AddCertificatesViewController.swift */; };
+		7E5B0FC01E8A10B800B6FD58 /* MedicalRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B0FBF1E8A10B800B6FD58 /* MedicalRequestViewController.swift */; };
+		7E5B0FC21E8A4D3E00B6FD58 /* TDBadgedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B0FC11E8A4D3E00B6FD58 /* TDBadgedCell.swift */; };
+		7E5B0FC41E8A54AA00B6FD58 /* AddRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B0FC31E8A54AA00B6FD58 /* AddRequestViewController.swift */; };
+		7E5B0FCA1E8A773300B6FD58 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B0FC91E8A773300B6FD58 /* HomeViewController.swift */; };
+		7E5B0FCC1E8A863800B6FD58 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B0FCB1E8A863800B6FD58 /* ProfileViewController.swift */; };
+		7E5EEA771EB2CAAD00F6CD9E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5EEA761EB2CAAD00F6CD9E /* SettingsViewController.swift */; };
+		7E6FD1081E8B27BF00E565B1 /* NotApprovedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6FD1071E8B27BF00E565B1 /* NotApprovedViewController.swift */; };
+		7E6FD10A1E8B29A900E565B1 /* OrganizationMedicalRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6FD1091E8B29A900E565B1 /* OrganizationMedicalRequestViewController.swift */; };
+		7E81D44C1E8ABE6300C32FF8 /* JVFloatLabeledTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E81D44B1E8ABE6300C32FF8 /* JVFloatLabeledTextField.m */; };
+		7E81D44F1E8ABE8E00C32FF8 /* NSString+TextDirectionality.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E81D44E1E8ABE8E00C32FF8 /* NSString+TextDirectionality.m */; };
+		7E81D4691E8AFA0E00C32FF8 /* IQDropDownTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E81D4681E8AFA0E00C32FF8 /* IQDropDownTextField.m */; };
+		7E9094D41E91D52A006B7D1C /* SearchUsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9094D31E91D52A006B7D1C /* SearchUsersViewController.swift */; };
+		7E9094DC1E91DA65006B7D1C /* BecomeADonorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9094DB1E91DA65006B7D1C /* BecomeADonorViewController.swift */; };
+		7E90950B1E91F7B5006B7D1C /* All other classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E90950A1E91F7B5006B7D1C /* All other classes.swift */; };
+		7E9214DC1E91F8E700B28CB9 /* Registered.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9214DA1E91F8E700B28CB9 /* Registered.swift */; };
+		7E9214DD1E91F8E700B28CB9 /* Doctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9214DB1E91F8E700B28CB9 /* Doctor.swift */; };
+		7E9214DF1E91FA6A00B28CB9 /* SQLiteDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9214DE1E91FA6A00B28CB9 /* SQLiteDataStore.swift */; };
+		7EA7AEB81E8F322100213ACE /* MedNetUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA7AEB71E8F322100213ACE /* MedNetUser.swift */; };
+		7EA7AEBE1E8F625900213ACE /* Civilian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA7AEBD1E8F625900213ACE /* Civilian.swift */; };
+		7EA8F7A71EB3085A00F79B81 /* DonationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA8F7A61EB3085A00F79B81 /* DonationsViewController.swift */; };
+		7EA8F7B11EB35AC600F79B81 /* MedicalRequestFullViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA8F7B01EB35AC600F79B81 /* MedicalRequestFullViewController.swift */; };
+		7EA8F7B61EB3666E00F79B81 /* RecievedMedicalRequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA8F7B51EB3666E00F79B81 /* RecievedMedicalRequestsViewController.swift */; };
+		7EA8F7BA1EB36AEF00F79B81 /* SJFluidSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA8F7B71EB36AEF00F79B81 /* SJFluidSegmentedControl.swift */; };
+		7EA8F7BB1EB36AEF00F79B81 /* SJGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA8F7B81EB36AEF00F79B81 /* SJGradientView.swift */; };
+		7EA8F7BC1EB36AEF00F79B81 /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA8F7B91EB36AEF00F79B81 /* UIView+Constraints.swift */; };
+		7EC8BED51E8705BE008915D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC8BED41E8705BE008915D2 /* AppDelegate.swift */; };
+		7EC8BEDA1E8705BE008915D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EC8BED81E8705BE008915D2 /* Main.storyboard */; };
+		7EC8BEDC1E8705BE008915D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EC8BEDB1E8705BE008915D2 /* Assets.xcassets */; };
+		7EC8BEDF1E8705BE008915D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EC8BEDD1E8705BE008915D2 /* LaunchScreen.storyboard */; };
+		7EC8BEEA1E8705BF008915D2 /* MedNetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC8BEE91E8705BF008915D2 /* MedNetTests.swift */; };
+		7EC8BEF51E8705BF008915D2 /* MedNetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC8BEF41E8705BF008915D2 /* MedNetUITests.swift */; };
+		7EC8BF211E870700008915D2 /* NewUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC8BF201E870700008915D2 /* NewUserViewController.swift */; };
+		7EC8BF231E87074E008915D2 /* RegisteredUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC8BF221E87074E008915D2 /* RegisteredUserViewController.swift */; };
+		7EC8BF311E870F8A008915D2 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC8BF301E870F8A008915D2 /* MasterViewController.swift */; };
+		CF73AB71FA4AD7FE26CB38B4 /* Pods_MedNetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 590AFBA505DFF019356487C7 /* Pods_MedNetTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E44ED9F1E91F82700B2358C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E44ED951E91F82700B2358C /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247AD31C3F04ED00AE3E12;
+			remoteInfo = "SQLite iOS";
+		};
+		7E44EDA11E91F82700B2358C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E44ED951E91F82700B2358C /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247ADD1C3F04ED00AE3E12;
+			remoteInfo = "SQLiteTests iOS";
+		};
+		7E44EDA31E91F82700B2358C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E44ED951E91F82700B2358C /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B3C1C3F3ED000AE3E12;
+			remoteInfo = "SQLite Mac";
+		};
+		7E44EDA51E91F82700B2358C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E44ED951E91F82700B2358C /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B451C3F3ED000AE3E12;
+			remoteInfo = "SQLiteTests Mac";
+		};
+		7E44EDA71E91F82700B2358C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E44ED951E91F82700B2358C /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E5A1C6BB0F50062603F;
+			remoteInfo = "SQLite tvOS";
+		};
+		7E44EDA91E91F82700B2358C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E44ED951E91F82700B2358C /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E631C6BB0F60062603F;
+			remoteInfo = "SQLiteTests tvOS";
+		};
+		7E44EDAB1E91F82700B2358C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E44ED951E91F82700B2358C /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A121AC451CA35C79005A31D1;
+			remoteInfo = "SQLite watchOS";
+		};
+		7E44EDAF1E91F83D00B2358C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E44ED951E91F82700B2358C /* SQLite.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = EE247AD21C3F04ED00AE3E12;
+			remoteInfo = "SQLite iOS";
+		};
+		7EC8BEE61E8705BF008915D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EC8BEC91E8705BE008915D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EC8BED01E8705BE008915D2;
+			remoteInfo = MedNet;
+		};
+		7EC8BEF11E8705BF008915D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EC8BEC91E8705BE008915D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EC8BED01E8705BE008915D2;
+			remoteInfo = MedNet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7EC8BF1F1E87064E008915D2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7E44EDAE1E91F83D00B2358C /* SQLite.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		02C095C299AE59C282B91B68 /* Pods-MedNetTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedNetTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MedNetTests/Pods-MedNetTests.release.xcconfig"; sourceTree = "<group>"; };
+		13060DB8AA766B8846C92EA0 /* Pods-MedNet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedNet.release.xcconfig"; path = "Pods/Target Support Files/Pods-MedNet/Pods-MedNet.release.xcconfig"; sourceTree = "<group>"; };
+		3721571630053DC260260090 /* Pods_MedNet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedNet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		590AFBA505DFF019356487C7 /* Pods_MedNetTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedNetTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		613B93AF8DAF3BBC7440F569 /* Pods-MedNet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedNet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MedNet/Pods-MedNet.debug.xcconfig"; sourceTree = "<group>"; };
+		7E3D00231E88746B004DC071 /* AddProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddProfileViewController.swift; sourceTree = "<group>"; };
+		7E3D00271E8877EF004DC071 /* DatePickerDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerDialog.swift; sourceTree = "<group>"; };
+		7E3D00291E887DF7004DC071 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		7E3D002F1E888C4D004DC071 /* SearchTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTextField.swift; sourceTree = "<group>"; };
+		7E3D00311E88969C004DC071 /* AddAllergiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAllergiesViewController.swift; sourceTree = "<group>"; };
+		7E44ED951E91F82700B2358C /* SQLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SQLite.xcodeproj; path = "SQLite.swift-master/SQLite.xcodeproj"; sourceTree = "<group>"; };
+		7E4500B91E9074CC004E89D1 /* VolunteerOrganization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VolunteerOrganization.swift; sourceTree = "<group>"; };
+		7E4500BB1E907AA0004E89D1 /* Hospital.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hospital.swift; sourceTree = "<group>"; };
+		7E4500BD1E90B186004E89D1 /* CivilianInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CivilianInfoViewController.swift; sourceTree = "<group>"; };
+		7E4500BF1E90BB8D004E89D1 /* AddDegreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDegreeViewController.swift; sourceTree = "<group>"; };
+		7E4500C11E90C6F5004E89D1 /* AddHospitalServicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddHospitalServicesViewController.swift; sourceTree = "<group>"; };
+		7E4500C31E918D2E004E89D1 /* AddCertificatesExistingUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCertificatesExistingUserViewController.swift; sourceTree = "<group>"; };
+		7E4500C51E91A687004E89D1 /* HospitalAppointmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HospitalAppointmentViewController.swift; sourceTree = "<group>"; };
+		7E4500C91E91B3D5004E89D1 /* AddAppointmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAppointmentViewController.swift; sourceTree = "<group>"; };
+		7E5B0FB31E88C49C00B6FD58 /* UserProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		7E5B0FBB1E88D4E300B6FD58 /* AddTreatmentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTreatmentsViewController.swift; sourceTree = "<group>"; };
+		7E5B0FBD1E88EA4700B6FD58 /* AddCertificatesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCertificatesViewController.swift; sourceTree = "<group>"; };
+		7E5B0FBF1E8A10B800B6FD58 /* MedicalRequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicalRequestViewController.swift; sourceTree = "<group>"; };
+		7E5B0FC11E8A4D3E00B6FD58 /* TDBadgedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDBadgedCell.swift; sourceTree = "<group>"; };
+		7E5B0FC31E8A54AA00B6FD58 /* AddRequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddRequestViewController.swift; sourceTree = "<group>"; };
+		7E5B0FC91E8A773300B6FD58 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7E5B0FCB1E8A863800B6FD58 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		7E5EEA761EB2CAAD00F6CD9E /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		7E6FD1071E8B27BF00E565B1 /* NotApprovedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotApprovedViewController.swift; sourceTree = "<group>"; };
+		7E6FD1091E8B29A900E565B1 /* OrganizationMedicalRequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrganizationMedicalRequestViewController.swift; sourceTree = "<group>"; };
+		7E81D4491E8ABE6300C32FF8 /* MedNet-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MedNet-Bridging-Header.h"; sourceTree = "<group>"; };
+		7E81D44A1E8ABE6300C32FF8 /* JVFloatLabeledTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVFloatLabeledTextField.h; sourceTree = "<group>"; };
+		7E81D44B1E8ABE6300C32FF8 /* JVFloatLabeledTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVFloatLabeledTextField.m; sourceTree = "<group>"; };
+		7E81D44D1E8ABE8E00C32FF8 /* NSString+TextDirectionality.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TextDirectionality.h"; sourceTree = "<group>"; };
+		7E81D44E1E8ABE8E00C32FF8 /* NSString+TextDirectionality.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TextDirectionality.m"; sourceTree = "<group>"; };
+		7E81D4521E8AC58100C32FF8 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		7E81D4531E8AEC4200C32FF8 /* CoreActionSheetPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreActionSheetPicker.h; sourceTree = "<group>"; };
+		7E81D4671E8AFA0E00C32FF8 /* IQDropDownTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQDropDownTextField.h; sourceTree = "<group>"; };
+		7E81D4681E8AFA0E00C32FF8 /* IQDropDownTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQDropDownTextField.m; sourceTree = "<group>"; };
+		7E9094D31E91D52A006B7D1C /* SearchUsersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchUsersViewController.swift; sourceTree = "<group>"; };
+		7E9094DB1E91DA65006B7D1C /* BecomeADonorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BecomeADonorViewController.swift; sourceTree = "<group>"; };
+		7E90950A1E91F7B5006B7D1C /* All other classes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "All other classes.swift"; sourceTree = "<group>"; };
+		7E9214DA1E91F8E700B28CB9 /* Registered.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Registered.swift; sourceTree = "<group>"; };
+		7E9214DB1E91F8E700B28CB9 /* Doctor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Doctor.swift; sourceTree = "<group>"; };
+		7E9214DE1E91FA6A00B28CB9 /* SQLiteDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteDataStore.swift; sourceTree = "<group>"; };
+		7EA7AEB71E8F322100213ACE /* MedNetUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedNetUser.swift; sourceTree = "<group>"; };
+		7EA7AEBD1E8F625900213ACE /* Civilian.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Civilian.swift; sourceTree = "<group>"; };
+		7EA8F7A61EB3085A00F79B81 /* DonationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonationsViewController.swift; sourceTree = "<group>"; };
+		7EA8F7B01EB35AC600F79B81 /* MedicalRequestFullViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicalRequestFullViewController.swift; sourceTree = "<group>"; };
+		7EA8F7B51EB3666E00F79B81 /* RecievedMedicalRequestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecievedMedicalRequestsViewController.swift; sourceTree = "<group>"; };
+		7EA8F7B71EB36AEF00F79B81 /* SJFluidSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJFluidSegmentedControl.swift; sourceTree = "<group>"; };
+		7EA8F7B81EB36AEF00F79B81 /* SJGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJGradientView.swift; sourceTree = "<group>"; };
+		7EA8F7B91EB36AEF00F79B81 /* UIView+Constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
+		7EC8BED11E8705BE008915D2 /* MedNet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedNet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EC8BED41E8705BE008915D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7EC8BED91E8705BE008915D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7EC8BEDB1E8705BE008915D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7EC8BEDE1E8705BE008915D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7EC8BEE01E8705BE008915D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EC8BEE51E8705BF008915D2 /* MedNetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedNetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EC8BEE91E8705BF008915D2 /* MedNetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedNetTests.swift; sourceTree = "<group>"; };
+		7EC8BEEB1E8705BF008915D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EC8BEF01E8705BF008915D2 /* MedNetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedNetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EC8BEF41E8705BF008915D2 /* MedNetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedNetUITests.swift; sourceTree = "<group>"; };
+		7EC8BEF61E8705BF008915D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EC8BF201E870700008915D2 /* NewUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewUserViewController.swift; sourceTree = "<group>"; };
+		7EC8BF221E87074E008915D2 /* RegisteredUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisteredUserViewController.swift; sourceTree = "<group>"; };
+		7EC8BF301E870F8A008915D2 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		8FF6E746318B809A785213CD /* Pods-MedNetUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedNetUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MedNetUITests/Pods-MedNetUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A70DA7C8EA399AC0E7AC1322 /* Pods-MedNetTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedNetTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MedNetTests/Pods-MedNetTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EBE2B53D1B80CF3C1FB0CDEE /* Pods_MedNetUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedNetUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFE02693CDE2D2ADE8FDE864 /* Pods-MedNetUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedNetUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MedNetUITests/Pods-MedNetUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EC8BECE1E8705BE008915D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E44EDAD1E91F83D00B2358C /* SQLite.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EC8BEE21E8705BF008915D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF73AB71FA4AD7FE26CB38B4 /* Pods_MedNetTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EC8BEED1E8705BF008915D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3649542BCA048008641EF8C9 /* Pods_MedNetUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BA91F83FBE8766486CC08A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				613B93AF8DAF3BBC7440F569 /* Pods-MedNet.debug.xcconfig */,
+				13060DB8AA766B8846C92EA0 /* Pods-MedNet.release.xcconfig */,
+				A70DA7C8EA399AC0E7AC1322 /* Pods-MedNetTests.debug.xcconfig */,
+				02C095C299AE59C282B91B68 /* Pods-MedNetTests.release.xcconfig */,
+				FFE02693CDE2D2ADE8FDE864 /* Pods-MedNetUITests.debug.xcconfig */,
+				8FF6E746318B809A785213CD /* Pods-MedNetUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7E44ED961E91F82700B2358C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E44EDA01E91F82700B2358C /* SQLite.framework */,
+				7E44EDA21E91F82700B2358C /* SQLiteTests iOS.xctest */,
+				7E44EDA41E91F82700B2358C /* SQLite.framework */,
+				7E44EDA61E91F82700B2358C /* SQLiteTests Mac.xctest */,
+				7E44EDA81E91F82700B2358C /* SQLite.framework */,
+				7E44EDAA1E91F82700B2358C /* SQLiteTests tvOS.xctest */,
+				7E44EDAC1E91F82700B2358C /* SQLite.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E464D6B1E8B66AD009E7530 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7E9214DE1E91FA6A00B28CB9 /* SQLiteDataStore.swift */,
+				7E9214DA1E91F8E700B28CB9 /* Registered.swift */,
+				7E9214DB1E91F8E700B28CB9 /* Doctor.swift */,
+				7E90950A1E91F7B5006B7D1C /* All other classes.swift */,
+				7EA7AEBD1E8F625900213ACE /* Civilian.swift */,
+				7E4500BB1E907AA0004E89D1 /* Hospital.swift */,
+				7EA7AEB71E8F322100213ACE /* MedNetUser.swift */,
+				7E4500B91E9074CC004E89D1 /* VolunteerOrganization.swift */,
+			);
+			name = Classes;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		7E5B0FCD1E8AA4A000B6FD58 /* View controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7EA8F7B51EB3666E00F79B81 /* RecievedMedicalRequestsViewController.swift */,
+				7EA8F7B01EB35AC600F79B81 /* MedicalRequestFullViewController.swift */,
+				7E5EEA761EB2CAAD00F6CD9E /* SettingsViewController.swift */,
+				7EA8F7A61EB3085A00F79B81 /* DonationsViewController.swift */,
+				7E3D00311E88969C004DC071 /* AddAllergiesViewController.swift */,
+				7E4500C91E91B3D5004E89D1 /* AddAppointmentViewController.swift */,
+				7E4500C31E918D2E004E89D1 /* AddCertificatesExistingUserViewController.swift */,
+				7E5B0FBD1E88EA4700B6FD58 /* AddCertificatesViewController.swift */,
+				7E4500BF1E90BB8D004E89D1 /* AddDegreeViewController.swift */,
+				7E4500C11E90C6F5004E89D1 /* AddHospitalServicesViewController.swift */,
+				7E3D00231E88746B004DC071 /* AddProfileViewController.swift */,
+				7E5B0FC31E8A54AA00B6FD58 /* AddRequestViewController.swift */,
+				7E5B0FBB1E88D4E300B6FD58 /* AddTreatmentsViewController.swift */,
+				7E9094DB1E91DA65006B7D1C /* BecomeADonorViewController.swift */,
+				7E4500BD1E90B186004E89D1 /* CivilianInfoViewController.swift */,
+				7E5B0FC91E8A773300B6FD58 /* HomeViewController.swift */,
+				7E4500C51E91A687004E89D1 /* HospitalAppointmentViewController.swift */,
+				7EC8BF301E870F8A008915D2 /* MasterViewController.swift */,
+				7E5B0FBF1E8A10B800B6FD58 /* MedicalRequestViewController.swift */,
+				7EC8BF201E870700008915D2 /* NewUserViewController.swift */,
+				7E6FD1091E8B29A900E565B1 /* OrganizationMedicalRequestViewController.swift */,
+				7E5B0FCB1E8A863800B6FD58 /* ProfileViewController.swift */,
+				7EC8BF221E87074E008915D2 /* RegisteredUserViewController.swift */,
+				7E9094D31E91D52A006B7D1C /* SearchUsersViewController.swift */,
+			);
+			name = "View controllers";
+			sourceTree = "<group>";
+		};
+		7E5B0FCF1E8AA4C000B6FD58 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7E3D00291E887DF7004DC071 /* Util.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		7E5B0FD01E8AA4EC00B6FD58 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				7EA8F7B71EB36AEF00F79B81 /* SJFluidSegmentedControl.swift */,
+				7EA8F7B81EB36AEF00F79B81 /* SJGradientView.swift */,
+				7EA8F7B91EB36AEF00F79B81 /* UIView+Constraints.swift */,
+				7E81D4531E8AEC4200C32FF8 /* CoreActionSheetPicker.h */,
+				7E3D00271E8877EF004DC071 /* DatePickerDialog.swift */,
+				7E81D4671E8AFA0E00C32FF8 /* IQDropDownTextField.h */,
+				7E81D4681E8AFA0E00C32FF8 /* IQDropDownTextField.m */,
+				7E81D44A1E8ABE6300C32FF8 /* JVFloatLabeledTextField.h */,
+				7E81D44B1E8ABE6300C32FF8 /* JVFloatLabeledTextField.m */,
+				7E81D4491E8ABE6300C32FF8 /* MedNet-Bridging-Header.h */,
+				7E6FD1071E8B27BF00E565B1 /* NotApprovedViewController.swift */,
+				7E81D44D1E8ABE8E00C32FF8 /* NSString+TextDirectionality.h */,
+				7E81D44E1E8ABE8E00C32FF8 /* NSString+TextDirectionality.m */,
+				7E3D002F1E888C4D004DC071 /* SearchTextField.swift */,
+				7E5B0FC11E8A4D3E00B6FD58 /* TDBadgedCell.swift */,
+				7E5B0FB31E88C49C00B6FD58 /* UserProfile.swift */,
+			);
+			name = "Supporting files";
+			sourceTree = "<group>";
+		};
+		7EC8BEC81E8705BE008915D2 = {
+			isa = PBXGroup;
+			children = (
+				7E44ED951E91F82700B2358C /* SQLite.xcodeproj */,
+				7EC8BED31E8705BE008915D2 /* MedNet */,
+				7EC8BEE81E8705BF008915D2 /* MedNetTests */,
+				7EC8BEF31E8705BF008915D2 /* MedNetUITests */,
+				7EC8BED21E8705BE008915D2 /* Products */,
+				5BA91F83FBE8766486CC08A1 /* Pods */,
+				8DDBBACBEE27713B8DFEBCAA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7EC8BED21E8705BE008915D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EC8BED11E8705BE008915D2 /* MedNet.app */,
+				7EC8BEE51E8705BF008915D2 /* MedNetTests.xctest */,
+				7EC8BEF01E8705BF008915D2 /* MedNetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EC8BED31E8705BE008915D2 /* MedNet */ = {
+			isa = PBXGroup;
+			children = (
+				7EC8BED41E8705BE008915D2 /* AppDelegate.swift */,
+				7E464D6B1E8B66AD009E7530 /* Classes */,
+				7EC8BEE01E8705BE008915D2 /* Info.plist */,
+				7EC8BEDD1E8705BE008915D2 /* LaunchScreen.storyboard */,
+				7EC8BED81E8705BE008915D2 /* Main.storyboard */,
+				7EC8BEDB1E8705BE008915D2 /* Assets.xcassets */,
+				7E5B0FD01E8AA4EC00B6FD58 /* Supporting files */,
+				7E5B0FCF1E8AA4C000B6FD58 /* Utilities */,
+				7E5B0FCD1E8AA4A000B6FD58 /* View controllers */,
+				7E81D4521E8AC58100C32FF8 /* Bridging-Header.h */,
+			);
+			path = MedNet;
+			sourceTree = "<group>";
+		};
+		7EC8BEE81E8705BF008915D2 /* MedNetTests */ = {
+			isa = PBXGroup;
+			children = (
+				7EC8BEE91E8705BF008915D2 /* MedNetTests.swift */,
+				7EC8BEEB1E8705BF008915D2 /* Info.plist */,
+			);
+			path = MedNetTests;
+			sourceTree = "<group>";
+		};
+		7EC8BEF31E8705BF008915D2 /* MedNetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7EC8BEF41E8705BF008915D2 /* MedNetUITests.swift */,
+				7EC8BEF61E8705BF008915D2 /* Info.plist */,
+			);
+			path = MedNetUITests;
+			sourceTree = "<group>";
+		};
+		8DDBBACBEE27713B8DFEBCAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3721571630053DC260260090 /* Pods_MedNet.framework */,
+				590AFBA505DFF019356487C7 /* Pods_MedNetTests.framework */,
+				EBE2B53D1B80CF3C1FB0CDEE /* Pods_MedNetUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EC8BED01E8705BE008915D2 /* MedNet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EC8BEF91E8705BF008915D2 /* Build configuration list for PBXNativeTarget "MedNet" */;
+			buildPhases = (
+				FC37D88FC2F143779CFAB0D4 /* [CP] Check Pods Manifest.lock */,
+				7EC8BECD1E8705BE008915D2 /* Sources */,
+				7EC8BECE1E8705BE008915D2 /* Frameworks */,
+				7EC8BECF1E8705BE008915D2 /* Resources */,
+				7EC8BF1F1E87064E008915D2 /* Embed Frameworks */,
+				45E07EA684E79C1E8B1090AA /* [CP] Embed Pods Frameworks */,
+				FF5B8B4C036E1AA998CA370B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E44EDB01E91F83D00B2358C /* PBXTargetDependency */,
+			);
+			name = MedNet;
+			productName = MedNet;
+			productReference = 7EC8BED11E8705BE008915D2 /* MedNet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7EC8BEE41E8705BF008915D2 /* MedNetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EC8BEFC1E8705BF008915D2 /* Build configuration list for PBXNativeTarget "MedNetTests" */;
+			buildPhases = (
+				78431BDA0F414CDF679F6EAF /* [CP] Check Pods Manifest.lock */,
+				7EC8BEE11E8705BF008915D2 /* Sources */,
+				7EC8BEE21E8705BF008915D2 /* Frameworks */,
+				7EC8BEE31E8705BF008915D2 /* Resources */,
+				A539E65E07E4D948C9EBCF69 /* [CP] Embed Pods Frameworks */,
+				2E4624EA20E9473C435FBDF5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EC8BEE71E8705BF008915D2 /* PBXTargetDependency */,
+			);
+			name = MedNetTests;
+			productName = MedNetTests;
+			productReference = 7EC8BEE51E8705BF008915D2 /* MedNetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7EC8BEEF1E8705BF008915D2 /* MedNetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EC8BEFF1E8705BF008915D2 /* Build configuration list for PBXNativeTarget "MedNetUITests" */;
+			buildPhases = (
+				402AD36417AB921C822593A6 /* [CP] Check Pods Manifest.lock */,
+				7EC8BEEC1E8705BF008915D2 /* Sources */,
+				7EC8BEED1E8705BF008915D2 /* Frameworks */,
+				7EC8BEEE1E8705BF008915D2 /* Resources */,
+				CFCF6F57F3A0BBA38B3B53FD /* [CP] Embed Pods Frameworks */,
+				DC71AFC6BEB1FBBC4C0E2A0D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EC8BEF21E8705BF008915D2 /* PBXTargetDependency */,
+			);
+			name = MedNetUITests;
+			productName = MedNetUITests;
+			productReference = 7EC8BEF01E8705BF008915D2 /* MedNetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EC8BEC91E8705BE008915D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = HPP;
+				TargetAttributes = {
+					7EC8BED01E8705BE008915D2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					7EC8BEE41E8705BF008915D2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7EC8BED01E8705BE008915D2;
+					};
+					7EC8BEEF1E8705BF008915D2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7EC8BED01E8705BE008915D2;
+					};
+				};
+			};
+			buildConfigurationList = 7EC8BECC1E8705BE008915D2 /* Build configuration list for PBXProject "MedNet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7EC8BEC81E8705BE008915D2;
+			productRefGroup = 7EC8BED21E8705BE008915D2 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7E44ED961E91F82700B2358C /* Products */;
+					ProjectRef = 7E44ED951E91F82700B2358C /* SQLite.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				7EC8BED01E8705BE008915D2 /* MedNet */,
+				7EC8BEE41E8705BF008915D2 /* MedNetTests */,
+				7EC8BEEF1E8705BF008915D2 /* MedNetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		7E44EDA01E91F82700B2358C /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 7E44ED9F1E91F82700B2358C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7E44EDA21E91F82700B2358C /* SQLiteTests iOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests iOS.xctest";
+			remoteRef = 7E44EDA11E91F82700B2358C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7E44EDA41E91F82700B2358C /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 7E44EDA31E91F82700B2358C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7E44EDA61E91F82700B2358C /* SQLiteTests Mac.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests Mac.xctest";
+			remoteRef = 7E44EDA51E91F82700B2358C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7E44EDA81E91F82700B2358C /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 7E44EDA71E91F82700B2358C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7E44EDAA1E91F82700B2358C /* SQLiteTests tvOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests tvOS.xctest";
+			remoteRef = 7E44EDA91E91F82700B2358C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7E44EDAC1E91F82700B2358C /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 7E44EDAB1E91F82700B2358C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EC8BECF1E8705BE008915D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EC8BEDF1E8705BE008915D2 /* LaunchScreen.storyboard in Resources */,
+				7EC8BEDC1E8705BE008915D2 /* Assets.xcassets in Resources */,
+				7EC8BEDA1E8705BE008915D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EC8BEE31E8705BF008915D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EC8BEEE1E8705BF008915D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E4624EA20E9473C435FBDF5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MedNetTests/Pods-MedNetTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		402AD36417AB921C822593A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		45E07EA684E79C1E8B1090AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MedNet/Pods-MedNet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78431BDA0F414CDF679F6EAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A539E65E07E4D948C9EBCF69 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MedNetTests/Pods-MedNetTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFCF6F57F3A0BBA38B3B53FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MedNetUITests/Pods-MedNetUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC71AFC6BEB1FBBC4C0E2A0D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MedNetUITests/Pods-MedNetUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC37D88FC2F143779CFAB0D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FF5B8B4C036E1AA998CA370B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MedNet/Pods-MedNet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EC8BECD1E8705BE008915D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E5B0FB41E88C49C00B6FD58 /* UserProfile.swift in Sources */,
+				7E4500C21E90C6F5004E89D1 /* AddHospitalServicesViewController.swift in Sources */,
+				7E5B0FBC1E88D4E300B6FD58 /* AddTreatmentsViewController.swift in Sources */,
+				7E5B0FC21E8A4D3E00B6FD58 /* TDBadgedCell.swift in Sources */,
+				7EA7AEB81E8F322100213ACE /* MedNetUser.swift in Sources */,
+				7E9094D41E91D52A006B7D1C /* SearchUsersViewController.swift in Sources */,
+				7E6FD10A1E8B29A900E565B1 /* OrganizationMedicalRequestViewController.swift in Sources */,
+				7E9214DF1E91FA6A00B28CB9 /* SQLiteDataStore.swift in Sources */,
+				7EA8F7BB1EB36AEF00F79B81 /* SJGradientView.swift in Sources */,
+				7E5B0FCC1E8A863800B6FD58 /* ProfileViewController.swift in Sources */,
+				7EC8BF231E87074E008915D2 /* RegisteredUserViewController.swift in Sources */,
+				7EA8F7B61EB3666E00F79B81 /* RecievedMedicalRequestsViewController.swift in Sources */,
+				7EC8BF311E870F8A008915D2 /* MasterViewController.swift in Sources */,
+				7EA8F7BC1EB36AEF00F79B81 /* UIView+Constraints.swift in Sources */,
+				7E3D00241E88746B004DC071 /* AddProfileViewController.swift in Sources */,
+				7EC8BF211E870700008915D2 /* NewUserViewController.swift in Sources */,
+				7E9214DD1E91F8E700B28CB9 /* Doctor.swift in Sources */,
+				7E3D002A1E887DF7004DC071 /* Util.swift in Sources */,
+				7E81D4691E8AFA0E00C32FF8 /* IQDropDownTextField.m in Sources */,
+				7E9094DC1E91DA65006B7D1C /* BecomeADonorViewController.swift in Sources */,
+				7E3D00301E888C4D004DC071 /* SearchTextField.swift in Sources */,
+				7EA8F7A71EB3085A00F79B81 /* DonationsViewController.swift in Sources */,
+				7E5B0FC01E8A10B800B6FD58 /* MedicalRequestViewController.swift in Sources */,
+				7E9214DC1E91F8E700B28CB9 /* Registered.swift in Sources */,
+				7E4500C61E91A687004E89D1 /* HospitalAppointmentViewController.swift in Sources */,
+				7E5B0FC41E8A54AA00B6FD58 /* AddRequestViewController.swift in Sources */,
+				7EA8F7B11EB35AC600F79B81 /* MedicalRequestFullViewController.swift in Sources */,
+				7EC8BED51E8705BE008915D2 /* AppDelegate.swift in Sources */,
+				7E5EEA771EB2CAAD00F6CD9E /* SettingsViewController.swift in Sources */,
+				7E4500BC1E907AA0004E89D1 /* Hospital.swift in Sources */,
+				7E4500BE1E90B187004E89D1 /* CivilianInfoViewController.swift in Sources */,
+				7E3D00321E88969C004DC071 /* AddAllergiesViewController.swift in Sources */,
+				7EA7AEBE1E8F625900213ACE /* Civilian.swift in Sources */,
+				7E5B0FBE1E88EA4700B6FD58 /* AddCertificatesViewController.swift in Sources */,
+				7E81D44F1E8ABE8E00C32FF8 /* NSString+TextDirectionality.m in Sources */,
+				7EA8F7BA1EB36AEF00F79B81 /* SJFluidSegmentedControl.swift in Sources */,
+				7E81D44C1E8ABE6300C32FF8 /* JVFloatLabeledTextField.m in Sources */,
+				7E5B0FCA1E8A773300B6FD58 /* HomeViewController.swift in Sources */,
+				7E3D00281E8877EF004DC071 /* DatePickerDialog.swift in Sources */,
+				7E6FD1081E8B27BF00E565B1 /* NotApprovedViewController.swift in Sources */,
+				7E90950B1E91F7B5006B7D1C /* All other classes.swift in Sources */,
+				7E4500C01E90BB8D004E89D1 /* AddDegreeViewController.swift in Sources */,
+				7E4500BA1E9074CC004E89D1 /* VolunteerOrganization.swift in Sources */,
+				7E4500C41E918D2E004E89D1 /* AddCertificatesExistingUserViewController.swift in Sources */,
+				7E4500CA1E91B3D5004E89D1 /* AddAppointmentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EC8BEE11E8705BF008915D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EC8BEEA1E8705BF008915D2 /* MedNetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EC8BEEC1E8705BF008915D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EC8BEF51E8705BF008915D2 /* MedNetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E44EDB01E91F83D00B2358C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SQLite iOS";
+			targetProxy = 7E44EDAF1E91F83D00B2358C /* PBXContainerItemProxy */;
+		};
+		7EC8BEE71E8705BF008915D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EC8BED01E8705BE008915D2 /* MedNet */;
+			targetProxy = 7EC8BEE61E8705BF008915D2 /* PBXContainerItemProxy */;
+		};
+		7EC8BEF21E8705BF008915D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EC8BED01E8705BE008915D2 /* MedNet */;
+			targetProxy = 7EC8BEF11E8705BF008915D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7EC8BED81E8705BE008915D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EC8BED91E8705BE008915D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7EC8BEDD1E8705BE008915D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EC8BEDE1E8705BE008915D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7EC8BEF71E8705BF008915D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7EC8BEF81E8705BF008915D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EC8BEFA1E8705BF008915D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 613B93AF8DAF3BBC7440F569 /* Pods-MedNet.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SearchTextField\"",
+					"$(SRCROOT)/**",
+				);
+				INFOPLIST_FILE = MedNet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HPP.MedNet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MedNet/Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7EC8BEFB1E8705BF008915D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13060DB8AA766B8846C92EA0 /* Pods-MedNet.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SearchTextField\"",
+					"$(SRCROOT)/**",
+				);
+				INFOPLIST_FILE = MedNet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HPP.MedNet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MedNet/Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		7EC8BEFD1E8705BF008915D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A70DA7C8EA399AC0E7AC1322 /* Pods-MedNetTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MedNetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HPP.MedNetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedNet.app/MedNet";
+			};
+			name = Debug;
+		};
+		7EC8BEFE1E8705BF008915D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02C095C299AE59C282B91B68 /* Pods-MedNetTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MedNetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HPP.MedNetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedNet.app/MedNet";
+			};
+			name = Release;
+		};
+		7EC8BF001E8705BF008915D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFE02693CDE2D2ADE8FDE864 /* Pods-MedNetUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MedNetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HPP.MedNetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MedNet;
+			};
+			name = Debug;
+		};
+		7EC8BF011E8705BF008915D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FF6E746318B809A785213CD /* Pods-MedNetUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MedNetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HPP.MedNetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MedNet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EC8BECC1E8705BE008915D2 /* Build configuration list for PBXProject "MedNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EC8BEF71E8705BF008915D2 /* Debug */,
+				7EC8BEF81E8705BF008915D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EC8BEF91E8705BF008915D2 /* Build configuration list for PBXNativeTarget "MedNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EC8BEFA1E8705BF008915D2 /* Debug */,
+				7EC8BEFB1E8705BF008915D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EC8BEFC1E8705BF008915D2 /* Build configuration list for PBXNativeTarget "MedNetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EC8BEFD1E8705BF008915D2 /* Debug */,
+				7EC8BEFE1E8705BF008915D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EC8BEFF1E8705BF008915D2 /* Build configuration list for PBXNativeTarget "MedNetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EC8BF001E8705BF008915D2 /* Debug */,
+				7EC8BF011E8705BF008915D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EC8BEC91E8705BE008915D2 /* Project object */;
+}

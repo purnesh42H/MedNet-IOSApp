@@ -1,0 +1,6 @@
+framework module Pods_MedNet {
+  umbrella header "Pods-MedNet-umbrella.h"
+
+  export *
+  module * { export * }
+}
