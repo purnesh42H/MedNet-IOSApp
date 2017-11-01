@@ -4,9 +4,9 @@ MedNet – A social media for medical help aims to provide a centralized locatio
 
 ## App demo and report
 
-- Please see this [demo video](https://github.com/himi1/MedNet/blob/master/App%20Demo.mov) for a little demo of things I implemented using SQLite database with swift
-- Here is the [report](https://github.com/himi1/MedNet/blob/master/MedNet_ProjectReport.docx) of the project
-- Please view the [powerpoint presentation](https://github.com/himi1/MedNet/blob/master/MedNet.pptx) created to explain the need and application of MedNet
+- Please see this [demo video](App%20Demo.mov) for a little demo of things I implemented using SQLite database with swift
+- Here is the [report](MedNet_ProjectReport.docx) of the project
+- Please view the [powerpoint presentation](MedNet.pptx) created to explain the need and application of MedNet
 
 ## Database
 
