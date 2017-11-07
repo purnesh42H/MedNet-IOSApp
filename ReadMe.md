@@ -28,9 +28,9 @@ MedNet – A social media for medical help aims to provide a centralized locatio
 0. iOS projects run on Xcode(A software only available on MacOS). It can be
 downloaded through the App store on MacOS
 1. open file /MedNet/SQLLiteDataStore.swift and change the value of
-dbPath variable to the location of MedNet.db in your system. For instance, in my system, the location of db is ```/Users/himanshibhardwaj/IdeaProjects/MedNet/MedNet/MedNet.db```
+dbPath variable to the location of MedNet.db in your system. For instance, in my system, the location of db is ```/documents/IdeaProjects/MedNet/MedNet/MedNet.db```
 So on line 32 of ```/MedNet/SQLLiteDataStore.swift```
-I have set ```dbPath = "/Users/himanshibhardwaj/IdeaProjects/MedNet/MedNet/MedNet.db"```
+I have set ```dbPath = "/documents/IdeaProjects/MedNet/MedNet/MedNet.db"```
 2. Open /MedNet/MedNet.xcodeproj
 3. Set the active scheme to iPhone6s
 4. command + R
