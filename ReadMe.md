@@ -24,21 +24,20 @@ MedNet – A social media for medical help aims to provide a centralized locatio
   - /MedNet/SQLLiteDataStore.swift
 
 ## To run
-
-0. iOS projects run on Xcode(A software only available on MacOS). It can be
+- iOS projects run on Xcode(A software only available on MacOS). It can be
 downloaded through the App store on MacOS
-1. open file /MedNet/SQLLiteDataStore.swift and change the value of
+- open file /MedNet/SQLLiteDataStore.swift and change the value of
 dbPath variable to the location of MedNet.db in your system. For instance, in my system, the location of db is ```/documents/IdeaProjects/MedNet/MedNet/MedNet.db```
 So on line 32 of ```/MedNet/SQLLiteDataStore.swift```
 I have set ```dbPath = "/documents/IdeaProjects/MedNet/MedNet/MedNet.db"```
-2. Open /MedNet/MedNet.xcodeproj
-3. Set the active scheme to iPhone6s
-4. command + R
+- Open /MedNet/MedNet.xcodeproj
+- Set the active scheme to iPhone6s
+- command + R
 
 ## Contributing
 
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -m 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request.
+- Fork it!
+- Create your feature branch: `git checkout -b my-new-feature`
+- Commit your changes: `git commit -m 'Add some feature'`
+- Push to the branch: `git push origin my-new-feature`
+- Submit a pull request.
